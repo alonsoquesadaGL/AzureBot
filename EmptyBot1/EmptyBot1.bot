@@ -1,0 +1,67 @@
+﻿{
+  "name": "EmptyBot1",
+  "services": [
+    //{
+    //  "type": "endpoint",
+    //  "name": "development",
+    //  "endpoint": "http://localhost:3978/api/messages",
+    //  "appId": "",
+    //  "appPassword": "",
+    //  "id": "1"
+    //},
+    //{
+    //  "type": "endpoint",
+    //  "name": "production",
+    //  "endpoint": "https://EmptyBot1.azurewebsites.net/api/messages",
+    //  "appId": "<YOUR APP ID>",
+    //  "appPassword": "<YOUR APP PASSWORD>",
+    //  "id": "2"
+    //},
+    {
+      "type": "abs",
+      "tenantId": "06ded7e3-8b9f-44c2-b2ce-1e1dfe62fb9b",
+      "subscriptionId": "851c49b8-0ddc-48c3-b5a6-ecd33527a9ce",
+      "resourceGroup": "Bot",
+      "serviceName": "AlonsitoBot",
+      "name": "AlonsitoBot",
+      "id": "1",
+      "appId": "a46d442b-b404-4e1c-9580-a3b18d0bd793"
+    },
+    {
+      "type": "blob",
+      "connectionString": "DefaultEndpointsProtocol=https;AccountName=alonsitobot9d73;AccountKey=vSJqwYyMRJICHIogrihYJrkCEH1ocB9Lu90CFCqkbdXZ/LsPvG+NsgFyF8SAdFwrfRdfJWyTlLq79PFoodZ3Xw==;",
+      "tenantId": "06ded7e3-8b9f-44c2-b2ce-1e1dfe62fb9b",
+      "subscriptionId": "851c49b8-0ddc-48c3-b5a6-ecd33527a9ce",
+      "resourceGroup": "Bot",
+      "serviceName": "alonsitobot9d73",
+      "id": "2"
+    },
+    {
+      "type": "endpoint",
+      "appId": "",
+      "appPassword": "",
+      "endpoint": "http://localhost:3978/api/messages",
+      "name": "development",
+      "id": "3"
+    },
+    {
+      "type": "endpoint",
+      "appId": "a46d442b-b404-4e1c-9580-a3b18d0bd793",
+      "appPassword": "i5qUpuBk9f]Bt6JNnoJ;Dw^I5]kI",
+      "endpoint": "https://alonsitobot.azurewebsites.net/api/messages",
+      "name": "production",
+      "id": "4"
+    },
+    {
+      "type": "luis",
+      "appId": "5786d747-0655-4148-b560-ca6a972813b1",
+      "authoringKey": "2f7800a6f07c4980a64562c5bfaf5427",
+      "version": "0.1",
+      "region": "westus",
+      "name": "BasicBotLuisApplication",
+      "id": "5"
+    }
+  ],
+  "padlock": "",
+  "version": "2.0"
+}
